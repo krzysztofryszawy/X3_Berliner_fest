@@ -1,0 +1,260 @@
+/*This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more, that's where to get'em.*/
+
+a:link 
+{
+    color: whitesmoke;
+	text-decoration: none;
+}
+
+a:visited 
+{
+    color: inherit;
+}
+
+a:hover 
+{
+    color: inherit;
+}
+
+a:active 
+{    
+	color: inherit;
+}
+
+
+
+body {
+    height: auto;
+    background-image: url(img/funky-lines.png);
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bree Serif', serif;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    color: #404040;
+    user-select: none;    
+    
+}
+
+/******************* FLEX START *****************/
+.flex-container {
+    height: 30vw;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-item {
+    transition: all ease 0.4s;
+    border: 1px solid white;
+    flex-grow: 1;
+    flex-basis: 10em;
+    background-size:cover;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-item:hover {
+    flex-grow: 3;
+}
+
+
+
+.panel1 {
+    background-image: url(img/1.jpg);
+}
+
+.panel2 {
+    background-image: url(img/2.jpg);
+    background-position:center top;
+}
+
+.panel3 {
+    background-image: url(img/3.jpg);
+}
+
+.panel4 {
+    background-image: url(img/4.jpg);
+}
+/******************* FLEX END *****************/
+
+
+/*BLOCKS*/
+.block {
+    font-size: 1em;
+    padding-top: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    width: 100%;
+    min-width: 850px;
+    box-sizing: border-box; 
+    margin: 0;
+    
+    
+}
+
+.empty {
+    height: auto;
+    opacity: 1;
+    min-height: 9em;
+    color: #404040;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.padding {
+    padding: 2em;
+}
+
+.s1 {
+    padding-left: 5em;
+    height: 100vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(img/DSC_0309.jpg)
+        
+}
+
+.s1 p {
+    color: whitesmoke;
+    padding: 2em;
+    font-size: 4em;
+}
+
+
+
+
+.s2 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(img/DSC_0297.jpg)
+}
+
+
+
+
+.s2 p {
+     color: steelblue;
+    padding: 1em;
+    font-size: 4em;
+}
+
+
+.s3 {
+    height: auto;
+
+}
+.s3 p {
+}
+
+
+
+.s4 {
+    height: 100vh;
+    background-image: url(img/DSC_0628.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.s4 p {
+    background: rgba(255, 255, 255, .5);
+    padding: 2em;
+    color: #202020;
+    font-size: 2em;
+}
+
+.s5 {
+    background-color: whitesmoke;
+    color: #404040;
+    font-size: 0.5em;
+    text-align: center;
+    box-shadow: none;
+}
+
+.hl {
+	line-height: 1em;
+    color: white;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+    position: relative;
+    transform: translate(-4em);
+}
+
+.hl:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: translate(-3em);
+    color: steelblue;
+}
+
+
+
+.summary {
+    box-sizing: border-box;
+    margin-top: 3em;
+    background-color: RGBA(100,100,100,0.1);
+    color: #404040;
+    
+}
+
+/************** FLEX SUMMARY START *********************/
+.flex-container4 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.flex-item4 {
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 2em;
+    flex-grow: 1;
+    
+}
+
+.flex-item5 {
+    flex-grow: 1;
+    flex-flow: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    align-items: stretch;
+    display: flex;
+    
+}
+/********************* FLEX SUMMARY END **********************/
+
+
+.flex-item4:hover {
+    background-color: RGBA(100,100,100,0.1);
+    color: black;
+}
+    
+
+
+
+
+
+
+
